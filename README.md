@@ -2,6 +2,10 @@
 
 Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
+# Used Tools:
+
+Nuxt 3, Tailwind CSS and Flyonui (Tailwind CSS Package)
+
 ## Setup
 
 Make sure to install dependencies:
