@@ -6,6 +6,12 @@ Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduct
 
 Nuxt 3, Tailwind CSS and Flyonui (Tailwind CSS Package)
 
+# Development Info:
+
+Md. Rezwan Saki Alin.
+website: https://alinsworld.com/
+Start Date: 15-March-2025
+
 ## Setup
 
 Make sure to install dependencies:
