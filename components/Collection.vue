@@ -2,7 +2,7 @@
     
 <section class="text-gray-600 body-font">
   <div class="container px-5 py-24 mx-auto">
-    <h1 class="text-center text-5xl pb-12 text-gray-900 dark:text-white sm:text-4xl font-bold">Collection</h1>
+    <h1 class="text-center text-5xl pb-12 text-gray-900 dark:text-gray-200 sm:text-4xl font-bold">Collection</h1>
     <div class="flex flex-wrap -m-4">
       <!-- product 1 -->
       <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
@@ -11,7 +11,7 @@
         </a>
         <div class="mt-4">
           <a href="#" target="_blank">
-          <h2 class="text-blue-800 text-center text-lg font-bold">Audio Series</h2>
+          <h2 class="text-blue-800 dark:text-gray-200 text-center text-lg font-bold">Audio Series</h2>
           </a>
         </div>
       </div>
@@ -24,7 +24,7 @@
         </a>
         <div class="mt-4">
           <a href="#" target="_blank">
-          <h2 class="text-blue-800 text-center text-lg font-bold">Mobile Accessories</h2>
+          <h2 class="text-blue-800 dark:text-gray-200 text-center text-lg font-bold">Mobile Accessories</h2>
           </a>
         </div>
       </div>
@@ -37,7 +37,7 @@
         </a>
         <div class="mt-4">
           <a href="#" target="_blank">
-          <h2 class="text-blue-800 text-center text-lg font-bold">Game Series</h2>
+          <h2 class="text-blue-800 dark:text-gray-200 text-center text-lg font-bold">Game Series</h2>
           </a>
         </div>
       </div>
@@ -50,7 +50,7 @@
         </a>
         <div class="mt-4">
           <a href="#" target="_blank">
-          <h2 class="text-blue-800 text-center text-lg font-bold">Smart Life</h2>
+          <h2 class="text-blue-800 dark:text-gray-200 text-center text-lg font-bold">Smart Life</h2>
           </a>
         </div>
       </div>

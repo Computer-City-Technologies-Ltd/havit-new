@@ -13,7 +13,7 @@
             <div class="col-span-6 uppercase">
                 <ul class="flex">
                     <NuxtLink to="/hakii">
-                    <li class="px-4 py-1 hover:bg-[#DC4538] hover:text-white">Hakii</li>
+                    <li class="px-4 py-1  hover:bg-[#DC4538] hover:text-white">Hakii</li>
                     </NuxtLink>
                     <NuxtLink to="/music">
                     <li class="px-4 py-1 hover:bg-[#DC4538] hover:text-white">Music</li>
@@ -27,6 +27,11 @@
                     <NuxtLink to="/mobile">
                     <li class="px-4 py-1 hover:bg-[#DC4538] hover:text-white">
                         Mobile
+                    </li>
+                    </NuxtLink>
+                    <NuxtLink to="/demo">
+                    <li class="px-4 py-1 hover:bg-[#DC4538] hover:text-white">
+                        Demo
                     </li>
                     </NuxtLink>
                     <li class="px-4 py-1 hover:bg-[#DC4538] hover:text-white dropdown relative inline-flex [--auto-close:inside] [--offset:9] [--placement:bottom-end]">
