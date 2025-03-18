@@ -13,28 +13,28 @@
             <div class="col-span-6 uppercase">
                 <ul class="flex">
                     <NuxtLink to="/hakii">
-                    <li class="px-4 py-1  hover:bg-[#DC4538] hover:text-white">Hakii</li>
+                    <li class="px-4 py-1 hover:bg-gray-800 hover:text-white">Hakii</li>
                     </NuxtLink>
                     <NuxtLink to="/music">
-                    <li class="px-4 py-1 hover:bg-[#DC4538] hover:text-white">Music</li>
+                    <li class="px-4 py-1 hover:bg-gray-800 hover:text-white">Music</li>
                     </NuxtLink>
                     <NuxtLink to="/game">
-                    <li class="px-4 py-1 hover:bg-[#DC4538] hover:text-white">Game</li>
+                    <li class="px-4 py-1 hover:bg-gray-800 hover:text-white">Game</li>
                     </NuxtLink>
                     <NuxtLink to="/watch">
-                    <li class="px-4 py-1 hover:bg-[#DC4538] hover:text-white">Watch</li>
+                    <li class="px-4 py-1 hover:bg-gray-800 hover:text-white">Watch</li>
                     </NuxtLink>
                     <NuxtLink to="/mobile">
-                    <li class="px-4 py-1 hover:bg-[#DC4538] hover:text-white">
+                    <li class="px-4 py-1 hover:bg-gray-800 hover:text-white">
                         Mobile
                     </li>
                     </NuxtLink>
                     <NuxtLink to="/demo">
-                    <li class="px-4 py-1 hover:bg-[#DC4538] hover:text-white">
+                    <li class="px-4 py-1 hover:bg-gray-800 hover:text-white">
                         Demo
                     </li>
                     </NuxtLink>
-                    <li class="px-4 py-1 hover:bg-[#DC4538] hover:text-white dropdown relative inline-flex [--auto-close:inside] [--offset:9] [--placement:bottom-end]">
+                    <li class="px-4 py-1 hover:bg-gray-800 hover:text-white dropdown relative inline-flex [--auto-close:inside] [--offset:9] [--placement:bottom-end]">
                         <button id="dropdown-nav" type="button" class="uppercase dropdown-toggle dropdown-open:bg-base-content/10 dropdown-open:text-base-content" aria-haspopup="menu" aria-expanded="false" aria-label="Dropdown" >
                             Products
                         <span class="icon-[tabler--chevron-down] dropdown-open:rotate-180 size-4"></span>
@@ -47,6 +47,16 @@
                             <li><a class="dropdown-item" href="#">Figma designs</a></li>
                         </ul>
                     </li>
+                    <NuxtLink to="/about">
+                    <li class="px-4 py-1 hover:bg-gray-800 hover:text-white">
+                        About Us
+                    </li>
+                    </NuxtLink>
+                    <NuxtLink to="/contact">
+                    <li class="px-4 py-1 hover:bg-gray-800 hover:text-white">
+                        Contact Us
+                    </li>
+                    </NuxtLink>
                 </ul>
             </div>
         </div>

@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-[#794dff] py-4 text-center">
+  <div class="bg-[#da3a2a] py-4 text-center">
     <div class="px-32">
       <div class="text-white dark:text-blue-300 font-bold text-xs">
         <div class="col-span-6 uppercase flex justify-between">
