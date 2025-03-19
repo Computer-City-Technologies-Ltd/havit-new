@@ -27,6 +27,8 @@
           <NuxtLink to="/mobile">
             <li class="px-4 py-1 hover:bg-gray-800 hover:text-white">Mobile</li>
           </NuxtLink>
+
+          <!-- Mega menu for products start here -->
           <li
             class="px-4 py-1 hover:bg-gray-800 hover:text-white dropdown relative inline-flex [--auto-close:inside] [--offset:9] [--placement:bottom-end]"
           >
@@ -56,6 +58,8 @@
               <li><a class="dropdown-item" href="#">Figma designs</a></li>
             </ul>
           </li>
+          <!-- Mega menu for products end here -->
+
           <NuxtLink to="/about">
             <li class="px-4 py-1 hover:bg-gray-800 hover:text-white">
               About Us
