@@ -11,7 +11,7 @@
           >
             <img
               :alt="product.name"
-              class="object-cover object-center w-full h-full block rounded-lg"
+              class="object-cover object-center w-full h-full block rounded-lg dark:text-gray-100"
               :src="product.thumbnail"
             />
           </a>
@@ -20,10 +20,14 @@
               :href="`https://comcitybd.com/product/${product.slug}`"
               target="_blank"
             >
-              <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">
+              <h3
+                class="text-gray-500 text-xs tracking-widest title-font mb-1 dark:text-gray-100"
+              >
                 {{ product.category.name }}
               </h3>
-              <h2 class="text-gray-900 title-font text-lg font-medium">
+              <h2
+                class="text-gray-900 title-font text-lg font-medium dark:text-gray-100"
+              >
                 {{ product.name }}
               </h2>
               <span

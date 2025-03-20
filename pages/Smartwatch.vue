@@ -20,13 +20,11 @@
               :href="`https://comcitybd.com/product/${product.slug}`"
               target="_blank"
             >
-              <h3
-                class="text-gray-500 text-xs tracking-widest title-font mb-1 dark:text-gray-100"
-              >
+              <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">
                 {{ product.category.name }}
               </h3>
               <h2
-                class="text-gray-900 title-font text-lg font-medium dark:text-gray-100"
+                class="text-gray-900 dark:text-gray-100 title-font text-lg font-medium"
               >
                 {{ product.name }}
               </h2>

@@ -13,29 +13,29 @@
       <div class="col-span-6 uppercase">
         <ul class="flex">
           <NuxtLink to="/hakii">
-            <li class="px-4 py-1 hover:bg-gray-800 hover:text-white">Hakii</li>
+            <li class="px-4 py-1 hover:text-[#da3a2a]">Hakii</li>
           </NuxtLink>
           <NuxtLink to="/music">
-            <li class="px-4 py-1 hover:bg-gray-800 hover:text-white">Music</li>
+            <li class="px-4 py-1 hover:text-[#da3a2a]">Music</li>
           </NuxtLink>
           <NuxtLink to="/game">
-            <li class="px-4 py-1 hover:bg-gray-800 hover:text-white">Game</li>
+            <li class="px-4 py-1 hover:text-[#da3a2a]">Game</li>
           </NuxtLink>
           <NuxtLink to="/watch">
-            <li class="px-4 py-1 hover:bg-gray-800 hover:text-white">Watch</li>
+            <li class="px-4 py-1 hover:text-[#da3a2a]">Watch</li>
           </NuxtLink>
           <NuxtLink to="/mobile">
-            <li class="px-4 py-1 hover:bg-gray-800 hover:text-white">Mobile</li>
+            <li class="px-4 py-1 hover:text-[#da3a2a]">Mobile</li>
           </NuxtLink>
 
           <!-- Mega menu for products start here -->
           <li
-            class="px-4 py-1 hover:bg-gray-800 hover:text-white dropdown relative inline-flex [--auto-close:inside] [--offset:9] [--placement:bottom-end]"
+            class="px-4 py-1 hover:text-[#da3a2a] dropdown relative inline-flex [--auto-close:inside] [--offset:9] [--placement:bottom-end]"
           >
             <button
               id="dropdown-nav"
               type="button"
-              class="uppercase dropdown-toggle dropdown-open:bg-base-content/10 dropdown-open:text-base-content"
+              class="uppercase dropdown-toggle dropdown-open:text-[#da3a2a]"
               aria-haspopup="menu"
               aria-expanded="false"
               aria-label="Dropdown"
@@ -51,24 +51,36 @@
               aria-orientation="vertical"
               aria-labelledby="dropdown-nav"
             >
-              <li><a class="dropdown-item" href="#">UI kits</a></li>
-              <li><a class="dropdown-item" href="#">Templates</a></li>
-              <li><a class="dropdown-item" href="#">Component library</a></li>
+              <li>
+                <a class="dropdown-item hover:text-[#da3a2a]" href="#"
+                  >UI kits</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item hover:text-[#da3a2a]" href="#"
+                  >Templates</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item hover:text-[#da3a2a]" href="#"
+                  >Component library</a
+                >
+              </li>
               <hr class="border-base-content/25 -mx-2 my-3" />
-              <li><a class="dropdown-item" href="#">Figma designs</a></li>
+              <li>
+                <a class="dropdown-item hover:text-[#da3a2a]" href="#"
+                  >Figma designs</a
+                >
+              </li>
             </ul>
           </li>
           <!-- Mega menu for products end here -->
 
           <NuxtLink to="/about">
-            <li class="px-4 py-1 hover:bg-gray-800 hover:text-white">
-              About Us
-            </li>
+            <li class="px-4 py-1 hover:text-[#da3a2a]">About Us</li>
           </NuxtLink>
           <NuxtLink to="/contact">
-            <li class="px-4 py-1 hover:bg-gray-800 hover:text-white">
-              Contact Us
-            </li>
+            <li class="px-4 py-1 hover:text-[#da3a2a]">Contact Us</li>
           </NuxtLink>
         </ul>
       </div>
@@ -87,3 +99,9 @@
     <!-- search end here -->
   </nav>
 </template>
+
+<style>
+.dropdown-item:hover {
+  background: none;
+}
+</style>
