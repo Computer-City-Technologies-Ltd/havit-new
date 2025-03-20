@@ -10,10 +10,12 @@
       <!-- News 1 -->
       <div class="card rounded-none">
         <figure>
-          <img
-            src="https://cdn.flyonui.com/fy-assets/components/card/image-9.png"
-            alt="Watch"
-          />
+          <a
+            href="https://havitsmart.com/blogs/news/havit-seeel-pro-gaming-gear-boosts-vks-teams-performance"
+            target="_blank"
+          >
+            <img src="/img/havit_and_vks_coach.webp" alt="Watch" />
+          </a>
         </figure>
         <div class="card-body items-center">
           <h5
@@ -27,11 +29,13 @@
             HAVIT × SeeEL: Pro Gaming Gear Boosts VKS Team's Performance
           </p>
           <div class="card-actions">
-            <button
+            <a
+              href="https://havitsmart.com/blogs/news/havit-seeel-pro-gaming-gear-boosts-vks-teams-performance"
+              target="_blank"
               class="btn btn-text bg-black text-white hover:bg-gray-200 hover:text-black"
             >
               Read More
-            </button>
+            </a>
           </div>
         </div>
       </div>
@@ -40,10 +44,15 @@
       <!-- News 2 -->
       <div class="card rounded-none">
         <figure>
-          <img
-            src="https://cdn.flyonui.com/fy-assets/components/card/image-9.png"
-            alt="Watch"
-          />
+          <a
+            href="https://havitsmart.com/blogs/news/havit-boosts-galatasaray-in-turkish-super-league-2025"
+            target="_blank"
+          >
+            <img
+              src="/img/20250304-112634_LE_upscale_balanced_x4_1.jpg"
+              alt="Watch"
+            />
+          </a>
         </figure>
         <div class="card-body items-center">
           <h5
@@ -57,11 +66,13 @@
             HAVIT Shines in Turkish Super League 2025 Commentary Ads
           </p>
           <div class="card-actions">
-            <button
+            <a
+              href="https://havitsmart.com/blogs/news/havit-boosts-galatasaray-in-turkish-super-league-2025"
+              target="_blank"
               class="btn btn-text bg-black text-white hover:bg-gray-200 hover:text-black"
             >
               Read More
-            </button>
+            </a>
           </div>
         </div>
       </div>
@@ -70,10 +81,14 @@
       <!-- News 3 -->
       <div class="card rounded-none">
         <figure>
-          <img
-            src="https://cdn.flyonui.com/fy-assets/components/card/image-9.png"
-            alt="Watch"
-          />
+          <a
+            href="https://havitsmart.com/blogs/news/milano-home-2025-havit-unveils-new-gaming-gear-series-redefining-esports-lifestyle"
+            target="_blank"
+          >
+            <img
+              src="/img/1200x800_64257613-0d0e-4470-8cb3-4ca820eed6bc.webp"
+              alt="Watch"
+          /></a>
         </figure>
         <div class="card-body items-center">
           <h5
@@ -88,11 +103,13 @@
             Esports Lifestyle
           </p>
           <div class="card-actions">
-            <button
+            <a
+              href="https://havitsmart.com/blogs/news/milano-home-2025-havit-unveils-new-gaming-gear-series-redefining-esports-lifestyle"
+              target="_blank"
               class="btn btn-text bg-black text-white hover:bg-gray-200 hover:text-black"
             >
               Read More
-            </button>
+            </a>
           </div>
         </div>
       </div>

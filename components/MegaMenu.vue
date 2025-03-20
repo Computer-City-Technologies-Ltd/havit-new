@@ -83,156 +83,194 @@
                   class="menu md:menu-horizontal rounded-box w-full max-xl:gap-4 max-md:border md:shadow"
                 >
                   <li>
-                    <a href="/" class="menu-title uppercase font-bold"
-                      >Mobile Accessories</a
+                    <NuxtLink to="/" class="menu-title uppercase font-bold"
+                      >Mobile Accessories</NuxtLink
                     >
                     <ul class="menu">
                       <li>
-                        <a href="/MobileAccessories/mobilecase">Mobile Case</a>
-                      </li>
-                      <li>
-                        <a href="/MobileAccessories/powerbank">Power Bank</a>
-                      </li>
-                      <li>
-                        <a href="/MobileAccessories/wirelesscharger"
-                          >Wireless Charger</a
+                        <NuxtLink to="/MobileAccessories/mobilecase"
+                          >Mobile Case</NuxtLink
                         >
                       </li>
                       <li>
-                        <a href="/MobileAccessories/carcharger">Car Charger</a>
+                        <NuxtLink to="/MobileAccessories/powerbank"
+                          >Power Bank</NuxtLink
+                        >
                       </li>
                       <li>
-                        <a href="/MobileAccessories/usbcharger">USB Charger</a>
+                        <NuxtLink to="/MobileAccessories/wirelesscharger"
+                          >Wireless Charger</NuxtLink
+                        >
                       </li>
                       <li>
-                        <a href="/MobileAccessories/chargingcable"
-                          >Charging Cable</a
+                        <NuxtLink to="/MobileAccessories/carcharger"
+                          >Car Charger</NuxtLink
+                        >
+                      </li>
+                      <li>
+                        <NuxtLink to="/MobileAccessories/usbcharger"
+                          >USB Charger</NuxtLink
+                        >
+                      </li>
+                      <li>
+                        <NuxtLink to="/MobileAccessories/chargingcable"
+                          >Charging Cable</NuxtLink
                         >
                       </li>
                     </ul>
                   </li>
 
                   <li>
-                    <a href="/" class="menu-title uppercase font-bold"
-                      >Computer Accessories</a
+                    <NuxtLink to="/" class="menu-title uppercase font-bold"
+                      >Computer Accessories</NuxtLink
                     >
                     <ul class="menu">
                       <li>
-                        <a href="/ComputerAccessories/wiredmouse"
-                          >Wired Mouse</a
+                        <NuxtLink to="/ComputerAccessories/wiredmouse"
+                          >Wired Mouse</NuxtLink
                         >
                       </li>
                       <li>
-                        <a href="/ComputerAccessories/wirelessmouse"
-                          >Wireless Mouse</a
+                        <NuxtLink to="/ComputerAccessories/wirelessmouse"
+                          >Wireless Mouse</NuxtLink
                         >
                       </li>
                       <li>
-                        <a href="/ComputerAccessories/keyboard">Keyboard</a>
+                        <NuxtLink to="/ComputerAccessories/keyboard"
+                          >Keyboard</NuxtLink
+                        >
                       </li>
                       <li>
-                        <a href="/ComputerAccessories/keymousecombo"
-                          >Mouse Keyboard Combo</a
+                        <NuxtLink to="/ComputerAccessories/keymousecombo"
+                          >Mouse Keyboard Combo</NuxtLink
                         >
                       </li>
                     </ul>
                   </li>
 
                   <li>
-                    <a href="/projector" class="menu-title uppercase font-bold"
-                      >Projector</a
-                    >
-                  </li>
-
-                  <li>
-                    <a href="/" class="menu-title uppercase font-bold">Audio</a>
-                    <ul class="menu">
-                      <li>
-                        <a href="/Audio/btheadearphone"
-                          >BT Headphone & Earphone</a
-                        >
-                      </li>
-                      <li>
-                        <a href="/Audio/wiredheadearphone"
-                          >Wired Headphone & Earphone</a
-                        >
-                      </li>
-                      <li><a href="/Audio/speaker">Speaker</a></li>
-                      <li><a href="/Audio/speaker">Bluetooth Speaker</a></li>
-                    </ul>
-                  </li>
-
-                  <li>
-                    <a href="/microphone" class="menu-title uppercase font-bold"
-                      >Microphone</a
-                    >
-                  </li>
-
-                  <li>
-                    <a href="/" class="menu-title uppercase font-bold"
-                      >Gaming Setup</a
-                    >
-                    <ul class="menu">
-                      <li>
-                        <a href="/GamingSetup/gamingchair">Gaming Chair</a>
-                      </li>
-                      <li>
-                        <a href="/GamingSetup/gamingtable">Gaming Table</a>
-                      </li>
-                    </ul>
-                  </li>
-
-                  <li>
-                    <a href="/gamepad" class="menu-title uppercase font-bold"
-                      >Gamepad</a
-                    >
-                  </li>
-
-                  <li>
-                    <a
-                      href="/laptopcoolingpad"
+                    <NuxtLink
+                      to="/projector"
                       class="menu-title uppercase font-bold"
-                      >Laptop Cooling Pad</a
+                      >Projector</NuxtLink
                     >
                   </li>
 
                   <li>
-                    <a href="/smartwatch" class="menu-title uppercase font-bold"
-                      >Smart Watch</a
-                    >
-                  </li>
-
-                  <li>
-                    <a href="/" class="menu-title uppercase font-bold"
-                      >Cables</a
+                    <NuxtLink to="/" class="menu-title uppercase font-bold"
+                      >Audio</NuxtLink
                     >
                     <ul class="menu">
-                      <li><a href="/Cables/hdmicable">HDMI Cable</a></li>
-                      <li><a href="/Cables/vgacable">VGA Cable</a></li>
                       <li>
-                        <a href="/Cables/usbextension">USB Extention Cable</a>
+                        <NuxtLink to="/Audio/btheadearphone"
+                          >BT Headphone & Earphone</NuxtLink
+                        >
                       </li>
-                      <li><a href="/Cables/powercable">Power Cable</a></li>
+                      <li>
+                        <NuxtLink to="/Audio/wiredheadearphone"
+                          >Wired Headphone & Earphone</NuxtLink
+                        >
+                      </li>
+                      <li><NuxtLink to="/Audio/speaker">Speaker</NuxtLink></li>
+                      <li>
+                        <NuxtLink to="/Audio/speaker"
+                          >Bluetooth Speaker</NuxtLink
+                        >
+                      </li>
                     </ul>
                   </li>
 
                   <li>
-                    <a
-                      href="/headphonestand"
+                    <NuxtLink
+                      to="/microphone"
                       class="menu-title uppercase font-bold"
-                      >Headphone Stand</a
+                      >Microphone</NuxtLink
                     >
                   </li>
 
                   <li>
-                    <a href="/hub" class="menu-title uppercase font-bold"
-                      >Hub</a
+                    <NuxtLink to="/" class="menu-title uppercase font-bold"
+                      >Gaming Setup</NuxtLink
+                    >
+                    <ul class="menu">
+                      <li>
+                        <NuxtLink to="/GamingSetup/gamingchair"
+                          >Gaming Chair</NuxtLink
+                        >
+                      </li>
+                      <li>
+                        <NuxtLink to="/GamingSetup/gamingtable"
+                          >Gaming Table</NuxtLink
+                        >
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li>
+                    <NuxtLink
+                      to="/gamepad"
+                      class="menu-title uppercase font-bold"
+                      >Gamepad</NuxtLink
                     >
                   </li>
 
                   <li>
-                    <a href="/mousepad" class="menu-title uppercase font-bold"
-                      >Mousepad</a
+                    <NuxtLink
+                      to="/laptopcoolingpad"
+                      class="menu-title uppercase font-bold"
+                      >Laptop Cooling Pad</NuxtLink
+                    >
+                  </li>
+
+                  <li>
+                    <NuxtLink
+                      to="/smartwatch"
+                      class="menu-title uppercase font-bold"
+                      >Smart Watch</NuxtLink
+                    >
+                  </li>
+
+                  <li>
+                    <NuxtLink to="/" class="menu-title uppercase font-bold"
+                      >Cables</NuxtLink
+                    >
+                    <ul class="menu">
+                      <li>
+                        <NuxtLink to="/Cables/hdmicable">HDMI Cable</NuxtLink>
+                      </li>
+                      <li>
+                        <NuxtLink to="/Cables/vgacable">VGA Cable</NuxtLink>
+                      </li>
+                      <li>
+                        <NuxtLink to="/Cables/usbextension"
+                          >USB Extention Cable</NuxtLink
+                        >
+                      </li>
+                      <li>
+                        <NuxtLink to="/Cables/powercable">Power Cable</NuxtLink>
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li>
+                    <NuxtLink
+                      to="/headphonestand"
+                      class="menu-title uppercase font-bold"
+                      >Headphone Stand</NuxtLink
+                    >
+                  </li>
+
+                  <li>
+                    <NuxtLink to="/hub" class="menu-title uppercase font-bold"
+                      >Hub</NuxtLink
+                    >
+                  </li>
+
+                  <li>
+                    <NuxtLink
+                      to="/mousepad"
+                      class="menu-title uppercase font-bold"
+                      >Mousepad</NuxtLink
                     >
                   </li>
                 </ul>
@@ -249,5 +287,9 @@
 <style>
 .btn-text {
   background-color: none;
+}
+
+.dropdown.open:hover > .dropdown-open\:bg-base-content\/10:hover {
+  background-color: unset;
 }
 </style>

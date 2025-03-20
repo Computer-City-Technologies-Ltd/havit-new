@@ -97,7 +97,7 @@
 
       <div class="container mx-auto py-15 text-center">
         <button
-          class="btn bg-[#da3a2a] text-gray-900 hover:bg-black hover:text-white max-sm:btn-sm lg:btn-lg rounded-none"
+          class="btn bg-[#da3a2a] text-gray-200 hover:bg-black hover:text-white max-sm:btn-sm lg:btn-lg rounded-none"
         >
           View All
         </button>

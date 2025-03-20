@@ -16,16 +16,16 @@
       </form>
 
       <nav class="text-white">
-        <a href="#" class="link link-hover">Hakii</a>
-        <a href="#" class="link link-hover">Music</a>
-        <a href="#" class="link link-hover">Game</a>
-        <a href="#" class="link link-hover">Watch</a>
-        <a href="#" class="link link-hover">Mobile</a>
+        <a href="/hakii" class="link link-hover">Hakii</a>
+        <a href="/music" class="link link-hover">Music</a>
+        <a href="/game" class="link link-hover">Game</a>
+        <a href="/watch" class="link link-hover">Watch</a>
+        <a href="/mobile" class="link link-hover">Mobile</a>
       </nav>
 
       <nav class="text-white">
-        <a href="#" class="link link-hover">About Us</a>
-        <a href="#" class="link link-hover">Contact Us</a>
+        <a href="/about" class="link link-hover">About Us</a>
+        <a href="/contact" class="link link-hover">Contact Us</a>
       </nav>
     </footer>
 
@@ -36,7 +36,7 @@
         <aside class="grid-flow-col items-center">
           <p class="text-white">
             ©2025
-            <a class="link link-hover font-medium text-white" href="#">Havit</a>
+            <a class="link link-hover font-medium text-white" href="/">Havit</a>
           </p>
         </aside>
         <div class="flex h-5 gap-4">
