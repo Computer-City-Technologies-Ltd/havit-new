@@ -59,12 +59,13 @@
               </NuxtLink>
             </ul>
 
+            <!-- Mega Dropdown Menu -->
             <div
               class="dropdown [--adaptive:none] [--auto-close:inside] [--strategy:static] [--trigger:hover] md:[--strategy:absolute] uppercase"
             >
               <button
                 type="button"
-                class="dropdown-toggle btn btn-text text-gray-800 dark:text-gray-400 dropdown-open:bg-base-content/10 dropdown-open:text-base-content max-md:px-3 uppercase"
+                class="dropdown-toggle btn btn-text text-gray-800 hover:text-[#da3a2a] dark:text-gray-400 uppercase text-lg"
                 aria-haspopup="menu"
                 aria-expanded="false"
                 aria-label="Dropdown"
@@ -75,44 +76,54 @@
                 ></span>
               </button>
               <div
-                class="dropdown-menu dropdown-open:opacity-100 start-0 top-full hidden w-full min-w-60 rounded-lg p-0 opacity-0 shadow-none transition-[opacity,margin] duration-[0.1ms] before:absolute"
+                class="dropdown-menu dropdown-open:opacity-100 start-0 py-0 mt-0 top-full hidden w-full min-w-60 rounded-lg p-0 opacity-0 shadow-none transition-[opacity,margin] duration-[0.1ms] before:absolute"
                 role="menu"
                 aria-orientation="vertical"
               >
                 <ul
-                  class="menu md:menu-horizontal rounded-box w-full max-xl:gap-4 max-md:border md:shadow"
+                  class="menu rounded-box w-full max-xl:gap-4 max-md:border md:shadow grid grid-cols-5"
                 >
                   <li>
                     <NuxtLink to="/" class="menu-title uppercase font-bold"
                       >Mobile Accessories</NuxtLink
                     >
                     <ul class="menu">
-                      <li>
+                      <li
+                        class="text-gray-800 hover:text-[#da3a2a] hover:bg-none dark:text-gray-300 dark:hover:text-[#da3a2a]"
+                      >
                         <NuxtLink to="/MobileAccessories/mobilecase"
                           >Mobile Case</NuxtLink
                         >
                       </li>
-                      <li>
+                      <li
+                        class="text-gray-800 hover:text-[#da3a2a] dark:text-gray-300 dark:hover:text-[#da3a2a]"
+                      >
                         <NuxtLink to="/MobileAccessories/powerbank"
                           >Power Bank</NuxtLink
                         >
                       </li>
-                      <li>
+                      <li class="text-gray-800 hover:text-[#da3a2a] dark:text-gray-300 dark:hover:text-[#da3a2a]">
                         <NuxtLink to="/MobileAccessories/wirelesscharger"
                           >Wireless Charger</NuxtLink
                         >
                       </li>
-                      <li>
+                      <li
+                        class="text-gray-800 hover:text-[#da3a2a] dark:text-gray-300 dark:hover:text-[#da3a2a]"
+                      >
                         <NuxtLink to="/MobileAccessories/carcharger"
                           >Car Charger</NuxtLink
                         >
                       </li>
-                      <li>
+                      <li
+                        class="text-gray-800 hover:text-[#da3a2a] dark:text-gray-300 dark:hover:text-[#da3a2a]"
+                      >
                         <NuxtLink to="/MobileAccessories/usbcharger"
                           >USB Charger</NuxtLink
                         >
                       </li>
-                      <li>
+                      <li
+                        class="text-gray-800 hover:text-[#da3a2a] dark:text-gray-300 dark:hover:text-[#da3a2a]"
+                      >
                         <NuxtLink to="/MobileAccessories/chargingcable"
                           >Charging Cable</NuxtLink
                         >
@@ -125,25 +136,89 @@
                       >Computer Accessories</NuxtLink
                     >
                     <ul class="menu">
-                      <li>
+                      <li class="text-gray-800 hover:text-[#da3a2a] dark:text-gray-300 dark:hover:text-[#da3a2a]">
                         <NuxtLink to="/ComputerAccessories/wiredmouse"
                           >Wired Mouse</NuxtLink
                         >
                       </li>
-                      <li>
+                      <li class="text-gray-800 hover:text-[#da3a2a] dark:text-gray-300 dark:hover:text-[#da3a2a]">
                         <NuxtLink to="/ComputerAccessories/wirelessmouse"
                           >Wireless Mouse</NuxtLink
                         >
                       </li>
-                      <li>
+                      <li class="text-gray-800 hover:text-[#da3a2a] dark:text-gray-300 dark:hover:text-[#da3a2a]">
                         <NuxtLink to="/ComputerAccessories/keyboard"
                           >Keyboard</NuxtLink
                         >
                       </li>
-                      <li>
+                      <li class="text-gray-800 hover:text-[#da3a2a] dark:text-gray-300 dark:hover:text-[#da3a2a]">
                         <NuxtLink to="/ComputerAccessories/keymousecombo"
                           >Mouse Keyboard Combo</NuxtLink
                         >
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li>
+                    <NuxtLink to="/" class="menu-title uppercase font-bold"
+                      >Audio</NuxtLink
+                    >
+                    <ul class="menu">
+                      <li class="text-gray-800 hover:text-[#da3a2a] dark:text-gray-300 dark:hover:text-[#da3a2a]">
+                        <NuxtLink to="/Audio/btheadearphone"
+                          >BT Headphone & Earphone</NuxtLink
+                        >
+                      </li>
+                      <li class="text-gray-800 hover:text-[#da3a2a] dark:text-gray-300 dark:hover:text-[#da3a2a]">
+                        <NuxtLink to="/Audio/wiredheadearphone"
+                          >Wired Headphone & Earphone</NuxtLink
+                        >
+                      </li>
+                      <li class="text-gray-800 hover:text-[#da3a2a] dark:text-gray-300 dark:hover:text-[#da3a2a]"><NuxtLink to="/Audio/speaker">Speaker</NuxtLink></li>
+                      <li class="text-gray-800 hover:text-[#da3a2a] dark:text-gray-300 dark:hover:text-[#da3a2a]">
+                        <NuxtLink to="/Audio/speaker"
+                          >Bluetooth Speaker</NuxtLink
+                        >
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li>
+                    <NuxtLink to="/" class="menu-title uppercase font-bold"
+                      >Gaming Setup</NuxtLink
+                    >
+                    <ul class="menu">
+                      <li class="text-gray-800 hover:text-[#da3a2a] dark:text-gray-300 dark:hover:text-[#da3a2a]">
+                        <NuxtLink to="/GamingSetup/gamingchair"
+                          >Gaming Chair</NuxtLink
+                        >
+                      </li>
+                      <li class="text-gray-800 hover:text-[#da3a2a] dark:text-gray-300 dark:hover:text-[#da3a2a]"> 
+                        <NuxtLink to="/GamingSetup/gamingtable"
+                          >Gaming Table</NuxtLink
+                        >
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li>
+                    <NuxtLink to="/" class="menu-title uppercase font-bold"
+                      >Cables</NuxtLink
+                    >
+                    <ul class="menu">
+                      <li class="text-gray-800 hover:text-[#da3a2a] dark:text-gray-300 dark:hover:text-[#da3a2a]">
+                        <NuxtLink to="/Cables/hdmicable">HDMI Cable</NuxtLink>
+                      </li>
+                      <li class="text-gray-800 hover:text-[#da3a2a] dark:text-gray-300 dark:hover:text-[#da3a2a]">
+                        <NuxtLink to="/Cables/vgacable">VGA Cable</NuxtLink>
+                      </li class="text-gray-800 hover:text-[#da3a2a] dark:text-gray-300 dark:hover:text-[#da3a2a]">
+                      <li class="text-gray-800 hover:text-[#da3a2a] dark:text-gray-300 dark:hover:text-[#da3a2a]">
+                        <NuxtLink to="/Cables/usbextension"
+                          >USB Extention Cable</NuxtLink
+                        >
+                      </li>
+                      <li class="text-gray-800 hover:text-[#da3a2a] dark:text-gray-300 dark:hover:text-[#da3a2a]">
+                        <NuxtLink to="/Cables/powercable">Power Cable</NuxtLink>
                       </li>
                     </ul>
                   </li>
@@ -157,53 +232,11 @@
                   </li>
 
                   <li>
-                    <NuxtLink to="/" class="menu-title uppercase font-bold"
-                      >Audio</NuxtLink
-                    >
-                    <ul class="menu">
-                      <li>
-                        <NuxtLink to="/Audio/btheadearphone"
-                          >BT Headphone & Earphone</NuxtLink
-                        >
-                      </li>
-                      <li>
-                        <NuxtLink to="/Audio/wiredheadearphone"
-                          >Wired Headphone & Earphone</NuxtLink
-                        >
-                      </li>
-                      <li><NuxtLink to="/Audio/speaker">Speaker</NuxtLink></li>
-                      <li>
-                        <NuxtLink to="/Audio/speaker"
-                          >Bluetooth Speaker</NuxtLink
-                        >
-                      </li>
-                    </ul>
-                  </li>
-
-                  <li>
                     <NuxtLink
                       to="/microphone"
                       class="menu-title uppercase font-bold"
                       >Microphone</NuxtLink
                     >
-                  </li>
-
-                  <li>
-                    <NuxtLink to="/" class="menu-title uppercase font-bold"
-                      >Gaming Setup</NuxtLink
-                    >
-                    <ul class="menu">
-                      <li>
-                        <NuxtLink to="/GamingSetup/gamingchair"
-                          >Gaming Chair</NuxtLink
-                        >
-                      </li>
-                      <li>
-                        <NuxtLink to="/GamingSetup/gamingtable"
-                          >Gaming Table</NuxtLink
-                        >
-                      </li>
-                    </ul>
                   </li>
 
                   <li>
@@ -228,28 +261,6 @@
                       class="menu-title uppercase font-bold"
                       >Smart Watch</NuxtLink
                     >
-                  </li>
-
-                  <li>
-                    <NuxtLink to="/" class="menu-title uppercase font-bold"
-                      >Cables</NuxtLink
-                    >
-                    <ul class="menu">
-                      <li>
-                        <NuxtLink to="/Cables/hdmicable">HDMI Cable</NuxtLink>
-                      </li>
-                      <li>
-                        <NuxtLink to="/Cables/vgacable">VGA Cable</NuxtLink>
-                      </li>
-                      <li>
-                        <NuxtLink to="/Cables/usbextension"
-                          >USB Extention Cable</NuxtLink
-                        >
-                      </li>
-                      <li>
-                        <NuxtLink to="/Cables/powercable">Power Cable</NuxtLink>
-                      </li>
-                    </ul>
                   </li>
 
                   <li>
@@ -289,7 +300,13 @@
   background-color: none;
 }
 
-.dropdown.open:hover > .dropdown-open\:bg-base-content\/10:hover {
+.btn-text:hover {
+  border-color: transparent;
   background-color: unset;
+}
+
+ul.menu li a:hover {
+  background:none;
+  background-image: none;
 }
 </style>
