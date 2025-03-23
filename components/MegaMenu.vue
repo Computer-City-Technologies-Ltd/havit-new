@@ -338,7 +338,7 @@
   </header>
 </template>
 
-<style>
+<style scoped>
 .btn-text {
   background-color: none;
 }
