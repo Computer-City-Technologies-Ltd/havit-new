@@ -7,8 +7,8 @@
         <!-- logo start here -->
         <div class="flex items-center justify-between">
           <NuxtLink
+            to="/"
             class="link text-base-content link-neutral text-xl font-semibold no-underline"
-            href="/"
           >
             <img src="/public/img/logo.png" class="w-40" />
           </NuxtLink>
@@ -42,19 +42,19 @@
             <ul
               class="menu md:menu-horizontal p-0 font-medium max-md:w-fit gap-2"
             >
-              <NuxtLink to="/hakii">
+              <NuxtLink to="/product/hakii">
                 <li class="px-4 py-1 hover:text-[#da3a2a]">Hakii</li>
               </NuxtLink>
-              <NuxtLink to="/music">
+              <NuxtLink to="/product/music?p1=80&p2=103&p3=112">
                 <li class="px-4 py-1 hover:text-[#da3a2a]">Music</li>
               </NuxtLink>
-              <NuxtLink to="/game">
+              <NuxtLink to="/product/game?p1=80&p2=100&p3=101&p4=99">
                 <li class="px-4 py-1 hover:text-[#da3a2a]">Game</li>
               </NuxtLink>
-              <NuxtLink to="/watch">
+              <NuxtLink to="/product/watch?p1=80&p2=123">
                 <li class="px-4 py-1 hover:text-[#da3a2a]">Watch</li>
               </NuxtLink>
-              <NuxtLink to="/mobile">
+              <NuxtLink to="/product/mobile?p1=80&p2=90&p3=107">
                 <li class="px-4 py-1 hover:text-[#da3a2a]">Mobile</li>
               </NuxtLink>
             </ul>
@@ -91,40 +91,42 @@
                       <li
                         class="text-gray-800 hover:text-[#da3a2a] hover:bg-none dark:text-gray-300 dark:hover:text-[#da3a2a]"
                       >
-                        <NuxtLink to="/MobileAccessories/mobilecase"
+                        <NuxtLink to="/product/mobilecase?p1=20&p2=105"
                           >Mobile Case</NuxtLink
                         >
                       </li>
                       <li
                         class="text-gray-800 hover:text-[#da3a2a] dark:text-gray-300 dark:hover:text-[#da3a2a]"
                       >
-                        <NuxtLink to="/MobileAccessories/powerbank"
+                        <NuxtLink to="/product/powerbank?p1=20&p2=107"
                           >Power Bank</NuxtLink
-                        >
-                      </li>
-                      <li class="text-gray-800 hover:text-[#da3a2a] dark:text-gray-300 dark:hover:text-[#da3a2a]">
-                        <NuxtLink to="/MobileAccessories/wirelesscharger"
-                          >Wireless Charger</NuxtLink
                         >
                       </li>
                       <li
                         class="text-gray-800 hover:text-[#da3a2a] dark:text-gray-300 dark:hover:text-[#da3a2a]"
                       >
-                        <NuxtLink to="/MobileAccessories/carcharger"
+                        <NuxtLink to="/product/wirelesscharger?p1=80&p2=113">
+                          Wireless Charger
+                        </NuxtLink>
+                      </li>
+                      <li
+                        class="text-gray-800 hover:text-[#da3a2a] dark:text-gray-300 dark:hover:text-[#da3a2a]"
+                      >
+                        <NuxtLink to="/product/carcharger?p1=80&p2=104"
                           >Car Charger</NuxtLink
                         >
                       </li>
                       <li
                         class="text-gray-800 hover:text-[#da3a2a] dark:text-gray-300 dark:hover:text-[#da3a2a]"
                       >
-                        <NuxtLink to="/MobileAccessories/usbcharger"
+                        <NuxtLink to="/product/usbcharger?p1=80&p2=110"
                           >USB Charger</NuxtLink
                         >
                       </li>
                       <li
                         class="text-gray-800 hover:text-[#da3a2a] dark:text-gray-300 dark:hover:text-[#da3a2a]"
                       >
-                        <NuxtLink to="/MobileAccessories/chargingcable"
+                        <NuxtLink to="/product/chargingcable?p1=80&p2=90"
                           >Charging Cable</NuxtLink
                         >
                       </li>
@@ -136,23 +138,31 @@
                       >Computer Accessories</NuxtLink
                     >
                     <ul class="menu">
-                      <li class="text-gray-800 hover:text-[#da3a2a] dark:text-gray-300 dark:hover:text-[#da3a2a]">
-                        <NuxtLink to="/ComputerAccessories/wiredmouse"
+                      <li
+                        class="text-gray-800 hover:text-[#da3a2a] dark:text-gray-300 dark:hover:text-[#da3a2a]"
+                      >
+                        <NuxtLink to="/product/wiredmouse?p1=80&p2=97"
                           >Wired Mouse</NuxtLink
                         >
                       </li>
-                      <li class="text-gray-800 hover:text-[#da3a2a] dark:text-gray-300 dark:hover:text-[#da3a2a]">
-                        <NuxtLink to="/ComputerAccessories/wirelessmouse"
+                      <li
+                        class="text-gray-800 hover:text-[#da3a2a] dark:text-gray-300 dark:hover:text-[#da3a2a]"
+                      >
+                        <NuxtLink to="/product/wirelessmouse?p1=80&p2=98"
                           >Wireless Mouse</NuxtLink
                         >
                       </li>
-                      <li class="text-gray-800 hover:text-[#da3a2a] dark:text-gray-300 dark:hover:text-[#da3a2a]">
-                        <NuxtLink to="/ComputerAccessories/keyboard"
+                      <li
+                        class="text-gray-800 hover:text-[#da3a2a] dark:text-gray-300 dark:hover:text-[#da3a2a]"
+                      >
+                        <NuxtLink to="/product/keyboard?p1=80&p2=96"
                           >Keyboard</NuxtLink
                         >
                       </li>
-                      <li class="text-gray-800 hover:text-[#da3a2a] dark:text-gray-300 dark:hover:text-[#da3a2a]">
-                        <NuxtLink to="/ComputerAccessories/keymousecombo"
+                      <li
+                        class="text-gray-800 hover:text-[#da3a2a] dark:text-gray-300 dark:hover:text-[#da3a2a]"
+                      >
+                        <NuxtLink to="/product/keymousecombo?p1=80&p2=99"
                           >Mouse Keyboard Combo</NuxtLink
                         >
                       </li>
@@ -164,19 +174,31 @@
                       >Audio</NuxtLink
                     >
                     <ul class="menu">
-                      <li class="text-gray-800 hover:text-[#da3a2a] dark:text-gray-300 dark:hover:text-[#da3a2a]">
-                        <NuxtLink to="/Audio/btheadearphone"
+                      <li
+                        class="text-gray-800 hover:text-[#da3a2a] dark:text-gray-300 dark:hover:text-[#da3a2a]"
+                      >
+                        <NuxtLink to="/product/btheadearphone?p1=80&p2=103"
                           >BT Headphone & Earphone</NuxtLink
                         >
                       </li>
-                      <li class="text-gray-800 hover:text-[#da3a2a] dark:text-gray-300 dark:hover:text-[#da3a2a]">
-                        <NuxtLink to="/Audio/wiredheadearphone"
+                      <li
+                        class="text-gray-800 hover:text-[#da3a2a] dark:text-gray-300 dark:hover:text-[#da3a2a]"
+                      >
+                        <NuxtLink to="/product/wiredheadearphone?p1=80&p2=112"
                           >Wired Headphone & Earphone</NuxtLink
                         >
                       </li>
-                      <li class="text-gray-800 hover:text-[#da3a2a] dark:text-gray-300 dark:hover:text-[#da3a2a]"><NuxtLink to="/Audio/speaker">Speaker</NuxtLink></li>
-                      <li class="text-gray-800 hover:text-[#da3a2a] dark:text-gray-300 dark:hover:text-[#da3a2a]">
-                        <NuxtLink to="/Audio/speaker"
+                      <li
+                        class="text-gray-800 hover:text-[#da3a2a] dark:text-gray-300 dark:hover:text-[#da3a2a]"
+                      >
+                        <NuxtLink to="/product/speaker?p1=80&p2=121">
+                          Speaker
+                        </NuxtLink>
+                      </li>
+                      <li
+                        class="text-gray-800 hover:text-[#da3a2a] dark:text-gray-300 dark:hover:text-[#da3a2a]"
+                      >
+                        <NuxtLink to="/product/BTspeaker?p1=80&p2=102"
                           >Bluetooth Speaker</NuxtLink
                         >
                       </li>
@@ -188,13 +210,17 @@
                       >Gaming Setup</NuxtLink
                     >
                     <ul class="menu">
-                      <li class="text-gray-800 hover:text-[#da3a2a] dark:text-gray-300 dark:hover:text-[#da3a2a]">
-                        <NuxtLink to="/GamingSetup/gamingchair"
+                      <li
+                        class="text-gray-800 hover:text-[#da3a2a] dark:text-gray-300 dark:hover:text-[#da3a2a]"
+                      >
+                        <NuxtLink to="/product/gamingchair?p1=80&p2=100"
                           >Gaming Chair</NuxtLink
                         >
                       </li>
-                      <li class="text-gray-800 hover:text-[#da3a2a] dark:text-gray-300 dark:hover:text-[#da3a2a]"> 
-                        <NuxtLink to="/GamingSetup/gamingtable"
+                      <li
+                        class="text-gray-800 hover:text-[#da3a2a] dark:text-gray-300 dark:hover:text-[#da3a2a]"
+                      >
+                        <NuxtLink to="/product/gamingtable?p1=80&p2=101"
                           >Gaming Table</NuxtLink
                         >
                       </li>
@@ -202,30 +228,44 @@
                   </li>
 
                   <li>
-                    <NuxtLink to="/" class="menu-title uppercase font-bold"
-                      >Cables</NuxtLink
-                    >
+                    <NuxtLink to="/" class="menu-title uppercase font-bold">
+                      Cables
+                    </NuxtLink>
                     <ul class="menu">
-                      <li class="text-gray-800 hover:text-[#da3a2a] dark:text-gray-300 dark:hover:text-[#da3a2a]">
-                        <NuxtLink to="/Cables/hdmicable">HDMI Cable</NuxtLink>
+                      <li
+                        class="text-gray-800 hover:text-[#da3a2a] dark:text-gray-300 dark:hover:text-[#da3a2a]"
+                      >
+                        <NuxtLink to="/product/hdmicable?p1=80&p2=86">
+                          HDMI Cable
+                        </NuxtLink>
                       </li>
-                      <li class="text-gray-800 hover:text-[#da3a2a] dark:text-gray-300 dark:hover:text-[#da3a2a]">
-                        <NuxtLink to="/Cables/vgacable">VGA Cable</NuxtLink>
-                      </li class="text-gray-800 hover:text-[#da3a2a] dark:text-gray-300 dark:hover:text-[#da3a2a]">
-                      <li class="text-gray-800 hover:text-[#da3a2a] dark:text-gray-300 dark:hover:text-[#da3a2a]">
-                        <NuxtLink to="/Cables/usbextension"
-                          >USB Extention Cable</NuxtLink
-                        >
+                      <li
+                        class="text-gray-800 hover:text-[#da3a2a] dark:text-gray-300 dark:hover:text-[#da3a2a]"
+                      >
+                        <NuxtLink to="/product/vgacable?p1=80&p2=85">
+                          VGA Cable
+                        </NuxtLink>
                       </li>
-                      <li class="text-gray-800 hover:text-[#da3a2a] dark:text-gray-300 dark:hover:text-[#da3a2a]">
-                        <NuxtLink to="/Cables/powercable">Power Cable</NuxtLink>
+                      <li
+                        class="text-gray-800 hover:text-[#da3a2a] dark:text-gray-300 dark:hover:text-[#da3a2a]"
+                      >
+                        <NuxtLink to="/product/usbextension?p1=80&p2=89">
+                          USB Extention Cable
+                        </NuxtLink>
+                      </li>
+                      <li
+                        class="text-gray-800 hover:text-[#da3a2a] dark:text-gray-300 dark:hover:text-[#da3a2a]"
+                      >
+                        <NuxtLink to="/product/powercable?p1=80&p2=87">
+                          Power Cable
+                        </NuxtLink>
                       </li>
                     </ul>
                   </li>
 
                   <li>
                     <NuxtLink
-                      to="/projector"
+                      to="/product/projector?p1=80&p2=130"
                       class="menu-title uppercase font-bold"
                       >Projector</NuxtLink
                     >
@@ -233,7 +273,7 @@
 
                   <li>
                     <NuxtLink
-                      to="/microphone"
+                      to="/product/microphone?p1=80&p2=124"
                       class="menu-title uppercase font-bold"
                       >Microphone</NuxtLink
                     >
@@ -241,7 +281,7 @@
 
                   <li>
                     <NuxtLink
-                      to="/gamepad"
+                      to="/product/gamepad?p1=80&p2=118"
                       class="menu-title uppercase font-bold"
                       >Gamepad</NuxtLink
                     >
@@ -249,7 +289,7 @@
 
                   <li>
                     <NuxtLink
-                      to="/laptopcoolingpad"
+                      to="/product/laptopcoolingpad?p1=80&p2=119"
                       class="menu-title uppercase font-bold"
                       >Laptop Cooling Pad</NuxtLink
                     >
@@ -257,7 +297,7 @@
 
                   <li>
                     <NuxtLink
-                      to="/smartwatch"
+                      to="/product/smartwatch?p1=80&p2=123"
                       class="menu-title uppercase font-bold"
                       >Smart Watch</NuxtLink
                     >
@@ -265,21 +305,24 @@
 
                   <li>
                     <NuxtLink
-                      to="/headphonestand"
+                      to="/product/Headphonestand?p1=80&p2=115"
                       class="menu-title uppercase font-bold"
-                      >Headphone Stand</NuxtLink
                     >
+                      Headphone Stand
+                    </NuxtLink>
                   </li>
 
                   <li>
-                    <NuxtLink to="/hub" class="menu-title uppercase font-bold"
+                    <NuxtLink
+                      to="/product/hub?p1=80&p2=111"
+                      class="menu-title uppercase font-bold"
                       >Hub</NuxtLink
                     >
                   </li>
 
                   <li>
                     <NuxtLink
-                      to="/mousepad"
+                      to="/product/mousepad?p1=80&p2=120"
                       class="menu-title uppercase font-bold"
                       >Mousepad</NuxtLink
                     >
@@ -306,7 +349,7 @@
 }
 
 ul.menu li a:hover {
-  background:none;
+  background: none;
   background-image: none;
 }
 </style>

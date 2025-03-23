@@ -7,7 +7,7 @@
           <a
             :href="`https://comcitybd.com/product/${product.slug}`"
             target="_blank"
-            class="block relative h-48 rounded overflow-hidden"
+            class="block relative rounded overflow-hidden"
           >
             <img
               :alt="product.name"

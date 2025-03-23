@@ -1,7 +1,7 @@
 <template>
   <div class="w-full text-white">
     <footer class="footer bg-[#da3a2a] p-10">
-      <form class="gap-6">
+      <div class="gap-6">
         <div class="flex items-center gap-2 text-xl font-bold">
           <NuxtLink to="/">
             <img src="/public/img/logo_footer.png" class="w-40" />
@@ -13,7 +13,7 @@
           company as well as a solution provider in network and security space
           in Bangladesh.
         </p>
-      </form>
+      </div>
 
       <nav class="text-white">
         <a href="/hakii" class="link link-hover">Hakii</a>
@@ -36,7 +36,9 @@
         <aside class="grid-flow-col items-center">
           <p class="text-white">
             ©2025
-            <a class="link link-hover font-medium text-white" href="/">Havit</a>
+            <NuxtLink to="/" class="link link-hover font-medium text-white">
+              Havit
+            </NuxtLink>
           </p>
         </aside>
         <div class="flex h-5 gap-4">

@@ -2,6 +2,11 @@
   <section class="text-gray-600 body-font">
     <div class="container px-5 py-24 mx-auto">
       <div class="flex flex-wrap -m-4">
+        <!-- product not found -->
+        <div class="text-lg text-gray-800" v-if="products.length == 0">
+          No Product in This Category
+        </div>
+
         <!-- product loop -->
         <div class="lg:w-1/4 md:w-1/2 p-4 w-full" v-for="product in products">
           <a
@@ -46,8 +51,16 @@
 </template>
 
 <script setup>
-const { data } = await useFetch(
-  "https://admindash.comcitybd.com/api/search/haki/?brand=undefined&page=1"
-);
+const route = useRoute();
+const name = route.params;
+const query = route.query;
+const url = ref("");
+console.log(query); // { id: '123' }
+if (name.slug == "hakii") {
+  url.value = `https://admindash.comcitybd.com/api/search/${name.slug}/?brand=undefined&page=1`;
+} else {
+  url.value = `https://admindash.comcitybd.com/api/brands/Havit/${query.p1}?id[]=${query.p2}&id[]=${query.p3}&id[]=${query.p4}`;
+}
+const { data } = await useFetch(url);
 const products = data.value.data;
 </script>
