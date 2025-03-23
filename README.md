@@ -1,3 +1,9 @@
+Havit - a Nuxt JS project for ComCityBD.
+
+# Used Tools:
+
+Nuxt 3, Tailwind CSS and Flyonui (Tailwind CSS Package).
+
 # Nuxt Minimal Starter
 
 Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.

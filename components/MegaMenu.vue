@@ -6,12 +6,12 @@
       <div class="relative md:flex md:items-center">
         <!-- logo start here -->
         <div class="flex items-center justify-between">
-          <a
+          <NuxtLink
             class="link text-base-content link-neutral text-xl font-semibold no-underline"
             href="/"
           >
             <img src="/public/img/logo.png" class="w-40" />
-          </a>
+          </NuxtLink>
           <div class="md:hidden">
             <button
               type="button"
