@@ -4,4 +4,5 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ['@nuxtjs/tailwindcss', '@nuxt/image'],
   plugins: ["~/plugins/flyonui.client.ts"],
+  css: ["~/assets/css/font.css"]
 })

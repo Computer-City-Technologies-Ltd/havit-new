@@ -1,22 +1,19 @@
 Havit - a Nuxt JS project for ComCityBD.
+This is a frontend website. This site is using API of 'https://comcitybd.com/' as a backend.
 
 # Used Tools:
 
 Nuxt 3, Tailwind CSS and Flyonui (Tailwind CSS Package).
-
-# Nuxt Minimal Starter
-
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
-
-# Used Tools:
-
-Nuxt 3, Tailwind CSS and Flyonui (Tailwind CSS Package)
 
 # Development Info:
 
 Md. Rezwan Saki Alin.
 website: https://alinsworld.com/
 Start Date: 15-March-2025
+
+# Nuxt Minimal Starter
+
+Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
 ## Setup
 
