@@ -3,7 +3,7 @@
     class="mx-auto px-4 py-8 h-[600px] w-[1200px]"
     style="background-color: white; background-size: 1200px 600px"
   >
-    <div class="flex flex-cols p-12">
+    <div class="flex flex-cols px-15 py-12">
       <div
         class="text-2xl font-semibold text-gray-900 uppercase pb-2"
         style="width: 50%"
