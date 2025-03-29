@@ -1,7 +1,7 @@
 <template>
   <div
     class="mx-auto px-4 py-8 h-[600px] w-[1200px]"
-    style="background-size: 1200px 600px"
+    style="background-color: white; background-size: 1200px 600px"
   >
     <div class="flex flex-cols p-12">
       <div
