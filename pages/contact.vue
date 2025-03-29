@@ -154,4 +154,10 @@ const sendMail = async function () {
   sendButton.value = false;
   buttonName.value = "Sucess";
 };
+
+useHead({
+  titleTemplate: (titleChunk) => {
+    return titleChunk ? `Contact Page - ${titleChunk} ` : "Contact Page";
+  },
+});
 </script>

@@ -16,11 +16,11 @@
       </div>
 
       <nav class="text-white">
-        <a href="/hakii" class="link link-hover">Hakii</a>
+        <!-- <a href="/hakii" class="link link-hover">Hakii</a>
         <a href="/music" class="link link-hover">Music</a>
         <a href="/game" class="link link-hover">Game</a>
         <a href="/watch" class="link link-hover">Watch</a>
-        <a href="/mobile" class="link link-hover">Mobile</a>
+        <a href="/mobile" class="link link-hover">Mobile</a> -->
       </nav>
 
       <nav class="text-white">

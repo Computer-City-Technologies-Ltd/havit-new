@@ -114,3 +114,12 @@
     </div>
   </div>
 </template>
+
+<script setup lang="ts">
+defineOgImageComponent("HavitOG");
+useSeoMeta({
+  title: "About - Havit Bangladesh",
+  description:
+    "Authorized Distributor - Computer City Technologies Ltd in Bangladesh",
+});
+</script>

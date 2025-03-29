@@ -45,16 +45,16 @@
               <NuxtLink to="/product/hakii">
                 <li class="px-4 py-1 hover:text-[#da3a2a]">Hakii</li>
               </NuxtLink>
-              <NuxtLink to="/product/music?p1=80&p2=103&p3=112">
+              <NuxtLink to="/product/music-80-103-112">
                 <li class="px-4 py-1 hover:text-[#da3a2a]">Music</li>
               </NuxtLink>
-              <NuxtLink to="/product/game?p1=80&p2=100&p3=101&p4=99">
+              <NuxtLink to="/product/game-80-100-101-99">
                 <li class="px-4 py-1 hover:text-[#da3a2a]">Game</li>
               </NuxtLink>
-              <NuxtLink to="/product/watch?p1=80&p2=123">
+              <NuxtLink to="/product/watch-80-123">
                 <li class="px-4 py-1 hover:text-[#da3a2a]">Watch</li>
               </NuxtLink>
-              <NuxtLink to="/product/mobile?p1=80&p2=90&p3=107">
+              <NuxtLink to="/product/mobile-80-90-107">
                 <li class="px-4 py-1 hover:text-[#da3a2a]">Mobile</li>
               </NuxtLink>
             </ul>
@@ -91,42 +91,42 @@
                       <li
                         class="text-gray-800 hover:text-[#da3a2a] hover:bg-none dark:text-gray-300 dark:hover:text-[#da3a2a]"
                       >
-                        <NuxtLink to="/product/mobilecase?p1=20&p2=105"
+                        <NuxtLink to="/product/mobilecase-20-105"
                           >Mobile Case</NuxtLink
                         >
                       </li>
                       <li
                         class="text-gray-800 hover:text-[#da3a2a] dark:text-gray-300 dark:hover:text-[#da3a2a]"
                       >
-                        <NuxtLink to="/product/powerbank?p1=20&p2=107"
+                        <NuxtLink to="/product/powerbank-20-107"
                           >Power Bank</NuxtLink
                         >
                       </li>
                       <li
                         class="text-gray-800 hover:text-[#da3a2a] dark:text-gray-300 dark:hover:text-[#da3a2a]"
                       >
-                        <NuxtLink to="/product/wirelesscharger?p1=80&p2=113">
+                        <NuxtLink to="/product/wirelesscharger-80-113">
                           Wireless Charger
                         </NuxtLink>
                       </li>
                       <li
                         class="text-gray-800 hover:text-[#da3a2a] dark:text-gray-300 dark:hover:text-[#da3a2a]"
                       >
-                        <NuxtLink to="/product/carcharger?p1=80&p2=104"
+                        <NuxtLink to="/product/carcharger-80-104"
                           >Car Charger</NuxtLink
                         >
                       </li>
                       <li
                         class="text-gray-800 hover:text-[#da3a2a] dark:text-gray-300 dark:hover:text-[#da3a2a]"
                       >
-                        <NuxtLink to="/product/usbcharger?p1=80&p2=110"
+                        <NuxtLink to="/product/usbcharger-80-110"
                           >USB Charger</NuxtLink
                         >
                       </li>
                       <li
                         class="text-gray-800 hover:text-[#da3a2a] dark:text-gray-300 dark:hover:text-[#da3a2a]"
                       >
-                        <NuxtLink to="/product/chargingcable?p1=80&p2=90"
+                        <NuxtLink to="/product/chargingcable-80-90"
                           >Charging Cable</NuxtLink
                         >
                       </li>
@@ -141,28 +141,28 @@
                       <li
                         class="text-gray-800 hover:text-[#da3a2a] dark:text-gray-300 dark:hover:text-[#da3a2a]"
                       >
-                        <NuxtLink to="/product/wiredmouse?p1=80&p2=97"
+                        <NuxtLink to="/product/wiredmouse-80-97"
                           >Wired Mouse</NuxtLink
                         >
                       </li>
                       <li
                         class="text-gray-800 hover:text-[#da3a2a] dark:text-gray-300 dark:hover:text-[#da3a2a]"
                       >
-                        <NuxtLink to="/product/wirelessmouse?p1=80&p2=98"
+                        <NuxtLink to="/product/wirelessmouse-80-98"
                           >Wireless Mouse</NuxtLink
                         >
                       </li>
                       <li
                         class="text-gray-800 hover:text-[#da3a2a] dark:text-gray-300 dark:hover:text-[#da3a2a]"
                       >
-                        <NuxtLink to="/product/keyboard?p1=80&p2=96"
+                        <NuxtLink to="/product/keyboard-80-96"
                           >Keyboard</NuxtLink
                         >
                       </li>
                       <li
                         class="text-gray-800 hover:text-[#da3a2a] dark:text-gray-300 dark:hover:text-[#da3a2a]"
                       >
-                        <NuxtLink to="/product/keymousecombo?p1=80&p2=99"
+                        <NuxtLink to="/product/keymousecombo-80-99"
                           >Mouse Keyboard Combo</NuxtLink
                         >
                       </li>
@@ -177,28 +177,28 @@
                       <li
                         class="text-gray-800 hover:text-[#da3a2a] dark:text-gray-300 dark:hover:text-[#da3a2a]"
                       >
-                        <NuxtLink to="/product/btheadearphone?p1=80&p2=103"
+                        <NuxtLink to="/product/btheadearphone-80-103"
                           >BT Headphone & Earphone</NuxtLink
                         >
                       </li>
                       <li
                         class="text-gray-800 hover:text-[#da3a2a] dark:text-gray-300 dark:hover:text-[#da3a2a]"
                       >
-                        <NuxtLink to="/product/wiredheadearphone?p1=80&p2=112"
+                        <NuxtLink to="/product/wiredheadearphone-80-112"
                           >Wired Headphone & Earphone</NuxtLink
                         >
                       </li>
                       <li
                         class="text-gray-800 hover:text-[#da3a2a] dark:text-gray-300 dark:hover:text-[#da3a2a]"
                       >
-                        <NuxtLink to="/product/speaker?p1=80&p2=121">
+                        <NuxtLink to="/product/speaker-80-121">
                           Speaker
                         </NuxtLink>
                       </li>
                       <li
                         class="text-gray-800 hover:text-[#da3a2a] dark:text-gray-300 dark:hover:text-[#da3a2a]"
                       >
-                        <NuxtLink to="/product/BTspeaker?p1=80&p2=102"
+                        <NuxtLink to="/product/BTspeaker-80-102"
                           >Bluetooth Speaker</NuxtLink
                         >
                       </li>
@@ -213,14 +213,14 @@
                       <li
                         class="text-gray-800 hover:text-[#da3a2a] dark:text-gray-300 dark:hover:text-[#da3a2a]"
                       >
-                        <NuxtLink to="/product/gamingchair?p1=80&p2=100"
+                        <NuxtLink to="/product/gamingchair-80-100"
                           >Gaming Chair</NuxtLink
                         >
                       </li>
                       <li
                         class="text-gray-800 hover:text-[#da3a2a] dark:text-gray-300 dark:hover:text-[#da3a2a]"
                       >
-                        <NuxtLink to="/product/gamingtable?p1=80&p2=101"
+                        <NuxtLink to="/product/gamingtable-80-101"
                           >Gaming Table</NuxtLink
                         >
                       </li>
@@ -235,28 +235,28 @@
                       <li
                         class="text-gray-800 hover:text-[#da3a2a] dark:text-gray-300 dark:hover:text-[#da3a2a]"
                       >
-                        <NuxtLink to="/product/hdmicable?p1=80&p2=86">
+                        <NuxtLink to="/product/hdmicable-80-86">
                           HDMI Cable
                         </NuxtLink>
                       </li>
                       <li
                         class="text-gray-800 hover:text-[#da3a2a] dark:text-gray-300 dark:hover:text-[#da3a2a]"
                       >
-                        <NuxtLink to="/product/vgacable?p1=80&p2=85">
+                        <NuxtLink to="/product/vgacable-80-85">
                           VGA Cable
                         </NuxtLink>
                       </li>
                       <li
                         class="text-gray-800 hover:text-[#da3a2a] dark:text-gray-300 dark:hover:text-[#da3a2a]"
                       >
-                        <NuxtLink to="/product/usbextension?p1=80&p2=89">
+                        <NuxtLink to="/product/usbextension-80-89">
                           USB Extention Cable
                         </NuxtLink>
                       </li>
                       <li
                         class="text-gray-800 hover:text-[#da3a2a] dark:text-gray-300 dark:hover:text-[#da3a2a]"
                       >
-                        <NuxtLink to="/product/powercable?p1=80&p2=87">
+                        <NuxtLink to="/product/powercable-80-87">
                           Power Cable
                         </NuxtLink>
                       </li>
@@ -265,7 +265,7 @@
 
                   <li>
                     <NuxtLink
-                      to="/product/projector?p1=80&p2=130"
+                      to="/product/projector-80-130"
                       class="menu-title uppercase font-bold"
                       >Projector</NuxtLink
                     >
@@ -273,7 +273,7 @@
 
                   <li>
                     <NuxtLink
-                      to="/product/microphone?p1=80&p2=124"
+                      to="/product/microphone-80-124"
                       class="menu-title uppercase font-bold"
                       >Microphone</NuxtLink
                     >
@@ -281,7 +281,7 @@
 
                   <li>
                     <NuxtLink
-                      to="/product/gamepad?p1=80&p2=118"
+                      to="/product/gamepad-80-118"
                       class="menu-title uppercase font-bold"
                       >Gamepad</NuxtLink
                     >
@@ -289,7 +289,7 @@
 
                   <li>
                     <NuxtLink
-                      to="/product/laptopcoolingpad?p1=80&p2=119"
+                      to="/product/laptopcoolingpad-80-119"
                       class="menu-title uppercase font-bold"
                       >Laptop Cooling Pad</NuxtLink
                     >
@@ -297,7 +297,7 @@
 
                   <li>
                     <NuxtLink
-                      to="/product/smartwatch?p1=80&p2=123"
+                      to="/product/smartwatch-80-123"
                       class="menu-title uppercase font-bold"
                       >Smart Watch</NuxtLink
                     >
@@ -305,7 +305,7 @@
 
                   <li>
                     <NuxtLink
-                      to="/product/Headphonestand?p1=80&p2=115"
+                      to="/product/Headphonestand-80-115"
                       class="menu-title uppercase font-bold"
                     >
                       Headphone Stand
@@ -314,7 +314,7 @@
 
                   <li>
                     <NuxtLink
-                      to="/product/hub?p1=80&p2=111"
+                      to="/product/hub-80-111"
                       class="menu-title uppercase font-bold"
                       >Hub</NuxtLink
                     >
@@ -322,7 +322,7 @@
 
                   <li>
                     <NuxtLink
-                      to="/product/mousepad?p1=80&p2=120"
+                      to="/product/mousepad-80-120"
                       class="menu-title uppercase font-bold"
                       >Mousepad</NuxtLink
                     >

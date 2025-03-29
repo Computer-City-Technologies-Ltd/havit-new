@@ -53,14 +53,28 @@
 <script setup>
 const route = useRoute();
 const name = route.params;
-const query = route.query;
 const url = ref("");
-console.log(query); // { id: '123' }
+const title = name.slug.split("-");
+
 if (name.slug == "hakii") {
   url.value = `https://admindash.comcitybd.com/api/search/${name.slug}/?brand=undefined&page=1`;
 } else {
-  url.value = `https://admindash.comcitybd.com/api/brands/Havit/${query.p1}?id[]=${query.p2}&id[]=${query.p3}&id[]=${query.p4}`;
+  const pp = name.slug.split("-");
+  url.value = `https://admindash.comcitybd.com/api/brands/Havit/${pp[1]}?id[]=${pp[2]}&id[]=${pp[3]}&id[]=${pp[4]}`;
 }
 const { data } = await useFetch(url);
 const products = data.value.data;
+
+console.log(products[0].thumbnail);
+
+defineOgImageComponent("ProductOG", {
+  title: products[0].category?.name,
+  image: products[0].thumbnail,
+  description: products[0].name,
+});
+
+useSeoMeta({
+  title: products[0].category?.name,
+  description: products[0].name,
+});
 </script>

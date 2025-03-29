@@ -14,14 +14,14 @@ import { NuxtLink } from "#components";
         <!-- product 1 -->
         <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
           <NuxtLink
-            to="/product/music?p1=80&p2=103&p3=112"
+            to="/product/music-80-103-112"
             target="_blank"
             class="block relative rounded overflow-hidden"
           >
             <img src="/public/img/headphone.webp" alt="headphone" />
           </NuxtLink>
           <div class="mt-4">
-            <NuxtLink to="/product/music?p1=80&p2=103&p3=112" target="_blank">
+            <NuxtLink to="/product/music-80-103-112" target="_blank">
               <h2
                 class="text-gray-900 dark:text-gray-200 text-center text-lg font-bold"
               >
@@ -35,7 +35,7 @@ import { NuxtLink } from "#components";
         <!-- product 2 -->
         <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
           <NuxtLink
-            to="/product/mobile?p1=80&p2=90&p3=107"
+            to="/product/mobile-80-90-107"
             target="_blank"
             class="block relative rounded overflow-hidden"
           >
@@ -45,7 +45,7 @@ import { NuxtLink } from "#components";
             />
           </NuxtLink>
           <div class="mt-4">
-            <NuxtLink to="/product/mobile?p1=80&p2=90&p3=107" target="_blank">
+            <NuxtLink to="/product/mobile-80-90-107" target="_blank">
               <h2
                 class="text-gray-900 dark:text-gray-200 text-center text-lg font-bold"
               >
@@ -59,17 +59,14 @@ import { NuxtLink } from "#components";
         <!-- product 3 -->
         <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
           <NuxtLink
-            to="/product/game?p1=80&p2=100&p3=101&p4=99"
+            to="/product/game-80-100-101-99"
             target="_blank"
             class="block relative rounded overflow-hidden"
           >
             <img src="/public/img/GameSeries.webp" alt="GameSeries" />
           </NuxtLink>
           <div class="mt-4">
-            <NuxtLink
-              to="/product/game?p1=80&p2=100&p3=101&p4=99"
-              target="_blank"
-            >
+            <NuxtLink to="/product/game-80-100-101-99" target="_blank">
               <h2
                 class="text-gray-900 dark:text-gray-200 text-center text-lg font-bold"
               >
@@ -83,14 +80,14 @@ import { NuxtLink } from "#components";
         <!-- product 4 -->
         <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
           <NuxtLink
-            to="/product/watch?p1=80&p2=123"
+            to="/product/watch-80-123"
             target="_blank"
             class="block relative rounded overflow-hidden"
           >
             <img src="/public/img/SmartLife.webp" alt="Smart Life" />
           </NuxtLink>
           <div class="mt-4">
-            <NuxtLink to="/product/watch?p1=80&p2=123" target="_blank">
+            <NuxtLink to="/product/watch-80-123" target="_blank">
               <h2
                 class="text-gray-900 dark:text-gray-200 text-center text-lg font-bold"
               >
