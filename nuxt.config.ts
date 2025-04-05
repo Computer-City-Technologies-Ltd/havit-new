@@ -27,8 +27,7 @@ export default defineNuxtConfig({
   plugins: ["~/plugins/flyonui.client.ts"],
   css: ["~/assets/css/font.css"],
   site: {
-    url: 'https://startling-mermaid-0a6bf5.netlify.app/',
-    // url: 'http://192.168.1.177:3000',
+    url: 'https://havit.com.bd',
     name: 'Havit Bangladesh',
   }
 })
