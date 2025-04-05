@@ -160,4 +160,23 @@ useHead({
     return titleChunk ? `Contact Page - ${titleChunk} ` : "Contact Page";
   },
 });
+
+// SEO Start Here
+const title = "Contact - Havit Bangladesh";
+const description =
+  "Authorized Distributor - Computer City Technologies Ltd in Bangladesh";
+
+defineOgImageComponent("HavitOG", {
+  headline: "Welcome",
+  title: title,
+  description: description,
+});
+
+useSeoMeta({
+  title: title,
+  ogTitle: title,
+  description: description,
+  ogDescription: description,
+});
+// SEO End
 </script>

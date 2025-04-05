@@ -116,10 +116,20 @@
 </template>
 
 <script setup lang="ts">
-defineOgImageComponent("HavitOG");
+const title = "About - Havit Bangladesh";
+const description =
+  "Authorized Distributor - Computer City Technologies Ltd in Bangladesh";
+
+defineOgImageComponent("HavitOG", {
+  headline: "Welcome",
+  title: title,
+  description: description,
+});
+
 useSeoMeta({
-  title: "About - Havit Bangladesh",
-  description:
-    "Authorized Distributor - Computer City Technologies Ltd in Bangladesh",
+  title: title,
+  ogTitle: title,
+  description: description,
+  ogDescription: description,
 });
 </script>

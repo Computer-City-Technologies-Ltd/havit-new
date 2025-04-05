@@ -22,7 +22,7 @@ useSeoMeta({
   description: "This is my amazing site, let me tell you all about it.",
   ogDescription: "This is my amazing site, let me tell you all about it.",
   twitterCard: "summary_large_image",
-  image:
+  ogImage:
     "https://images.unsplash.com/photo-1742878012833-7c819d682ab4?q=80&w=400&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
 });
 </script>

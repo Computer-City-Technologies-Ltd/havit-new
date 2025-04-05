@@ -39,3 +39,22 @@
     </div>
   </div>
 </template>
+
+<script setup>
+const title = "Distributor - Havit Bangladesh";
+const description =
+  "Authorized Distributor - Computer City Technologies Ltd in Bangladesh";
+
+defineOgImageComponent("HavitOG", {
+  headline: "Welcome",
+  title: title,
+  description: description,
+});
+
+useSeoMeta({
+  title: title,
+  ogTitle: title,
+  description: description,
+  ogDescription: description,
+});
+</script>
