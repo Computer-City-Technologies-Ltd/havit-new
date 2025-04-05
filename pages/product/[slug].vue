@@ -76,5 +76,7 @@ defineOgImageComponent("ProductOG", {
 useSeoMeta({
   title: products[0].category?.name,
   description: products[0].name,
+  ogTitle: products[0].category?.name,
+  ogDescription: products[0].name,
 });
 </script>
