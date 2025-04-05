@@ -12,14 +12,16 @@
 </template>
 
 <script lang="ts" setup>
-import HavitOG from "~/components/OgImage/HavitOG.vue";
-
 defineOgImageComponent("HavitOG", {
   title: "Is this thing on?",
 });
 
 useSeoMeta({
-  title: "About - Havit Bangladesh",
+  title: "My Amazing Site",
+  ogTitle: "My Amazing Site",
+  description: "This is my amazing site, let me tell you all about it.",
+  ogDescription: "This is my amazing site, let me tell you all about it.",
+  twitterCard: "summary_large_image",
   image:
     "https://images.unsplash.com/photo-1742878012833-7c819d682ab4?q=80&w=400&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
 });

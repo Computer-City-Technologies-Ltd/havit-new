@@ -8,16 +8,20 @@
   <AudioCenter class="px-32 py-5 mt-8" />
 </template>
 <script setup>
+const title = "Havit Bangladesh";
+const description =
+  "Authorized Distributor - Computer City Technologies Ltd in Bangladesh";
+
 defineOgImageComponent("HavitOG", {
   headline: "Welcome",
-  title: "Havit Bangladesh",
-  description:
-    "Authorized Distributor - Computer City Technologies Ltd in Bangladesh.",
+  title: title,
+  description: description,
 });
 
 useSeoMeta({
-  title: "Havit Bangladesh",
-  description:
-    "Authorized Distributor - Computer City Technologies Ltd in Bangladesh",
+  title: title,
+  ogTitle: title,
+  description: description,
+  ogDescription: description,
 });
 </script>

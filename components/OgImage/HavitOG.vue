@@ -35,7 +35,7 @@ withDefaults(
     image?: string;
   }>(),
   {
-    title: "Havit",
+    title: "Havit Bangladesh",
   }
 );
 </script>
