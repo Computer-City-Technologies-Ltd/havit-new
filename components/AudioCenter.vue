@@ -137,8 +137,5 @@
       </div>
       <!-- End of News 3 -->
     </div>
-    <div class="container mx-auto text-center py-10">
-      <button class="btn btn-text text-gray-800">See More ></button>
-    </div>
   </div>
 </template>
