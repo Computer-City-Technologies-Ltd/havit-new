@@ -72,7 +72,7 @@
             <p class="leading-normal my-5 dark:text-white">
               75-76, B.S. Bhaban, 3rd Floor <br />
               Laboratory Road Dhaka-1205, Bangladesh <br />
-              Tel: +880 2 9612629-30.
+              Tel: +8809604700800.
             </p>
             <span class="inline-flex">
               <a class="text-gray-500">
